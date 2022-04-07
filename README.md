@@ -7,7 +7,7 @@ Paulo Fernandez
 * [Porfolio_web](https://paulofernandez.github.io/porfolio/)
 
 # Ver ejemplo
--[ENLACEGITHUBPAGES](ENLACEGITHUBPAGES)
+-[https://paulofernandez.github.io/porfolio/](https://paulofernandez.github.io/porfolio/)
 
 # Instalación
 Este proyecto no necesita de instalacion. Simplemente abre la carpeta o haz doble clik en el .html
