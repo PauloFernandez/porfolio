@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!-- VER VIDEO PARTE 4 DESDE EL MINUTO 13:59 -->
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="switches">
+        <div id="toggle-theme" class="toggle-theme">
+          <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-them__icon">
+          <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div class="project__tags">
+        <a href="#Experiencias_Laborales" class="project__tag">Experiencias Laborales</a>
+        <a href="#Hobbies" class="project__tag">Hobbies</a>
+      </div>
+      <div id="toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="column column--left">
+        <!-- Tarjeta de perfil -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/perfil.jpg" alt="Foto Perfil">
+          </div>
+          <div class="card__header">
+            <h2 class="card__title no-margin">Paulo Fernández</h2>
+            <p class="card__subtitle no-margin">Developer Back-End Junior</p>
+          </div>
+          <div class="car__body">
+            <div class="card__link">
+              <i class="fas fa-envelope icon"></i>
+              <a href="mailto:pfernandez1626@gmail.com">Email</a>
+            </div>
+            <div class="card__link">
+              <i class="fas fa-phone-alt icon"></i>
+              <a href="tel:091513442">Tel. de contacto</a>
+            </div>
+            <p class="card__text">
+              Soy programador Back End, manejo los lenguajes PHP y Java.<br>
+              Tengo conocimientos de POO, MVC, MySql, jQuery y Ajax.<br>
+              Me encuentro en la búsqueda de mi primera experiencia en el área de programación y desarrollo de software.
+              Tengo algunos proyectos personales los cuales verán en el cuerpo del porfolio.<br>
+              En el botón <strong>DEMO</strong> abrirán la página creada para que puedan navegar en los proyectos.<br>
+              En el botón <strong>CODIGO</strong> los enviara al repositorio GitHub para visualizar el código de los proyectos
+            </p>
+          </div>
+        </article>
+        <article class="card card--experience">
+          <h2 class="card__title" id="Experiencias_Laborales">Experiencias Laborales</h2>
+          <div class="experience">
+            <img src="assets/images/logo-dnsffaa.png" alt="" class="experience__img">
+            <div class="experience__info">
+              <p class="experience__time"> Abril 2020 - Actualmente</p>
+              <h3 class="experience__job">D.N.S.FF.AA (Hospital Militar)</h3>
+              <p class="experience__description">Administrativo Contable</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/Logo-Azul.png" alt="" class="experience__img">
+            <div class="experience__info">
+              <p class="experience__time"> 2/2019 – 4/2020</p>
+              <h3 class="experience__job">Estudios Azul Negocios Inmobiliarios S.R.L.</h3>
+              <p class="experience__description">Administrativo contable, gestion de documentos en CGN, Anda, etc.<br>
+                 Gestión y elaboración de base de datos.</p>
+            </div>
+          </div>
+          <div class="experience">
+            <img src="assets/images/logo-ues.png" alt="" class="experience__img">
+            <div class="experience__info">
+              <p class="experience__time"> 2/2010 – 7/2018</p>
+              <h3 class="experience__job">UES S.A</h3>
+              <p class="experience__description">Facturación electrónica.<br>Administrativo contable, elaboracion de informes
+                y resolucion de problemas con los clientes.</p>
+            </div>
+          </div>
+        </article>
+        <article class="card card--hobbies">
+          <h2 class="card__title" id="Hobbies">Hobbies</h2>
+          <div>
+            <img src="assets/images/manchester.jpg" alt="Manchester United">
+          </div>
+          <h3 class="hobbie__title">Deportes</h3>
+          <p class="card__text">Seguir los encuentros del Manchester United, incorporaciones al club.<br>Jugar al futbol y también al pin pong</p>
+          <div>
+            <img src="assets/images/marvel.jpg" alt="Manchester United">
+          </div>
+          <h3 class="hobbie__title">Cine</h3>
+          <p class="card__text no-margin">Me gustan la películas de ciencia ficción como las de Marvel, acción y también la medievales</p>
+        </article>
+      </section>
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Porfolio web</h2>
+          <small>Languages utilizados</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">100</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Proyecto Facturación</h2>
+          <small>Languages utilizados</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">100</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">PHP</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">HTML</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="card__title">Proyecto Venta</h2>
+          <small>Language utilizado</small>
+          <div class="skills__header">
+            <span class="skills__start-level">0</span>
+            <span class="skills__start-level">100</span>
+          </div>
+          <div class="skills">
+            <div class="skills__item">
+              <p class="skills__tech">Java</p>
+              <div class="skills__bar skills__bar--90"></div>
+            </div>
+            <div class="skills__item">
+              <p class="skills__tech">MySql</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+           <img src="assets/images/icono.jpg" alt="Pagina destino" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">PHP</span>
+              <span class="project__tag">MySql</span>
+              <span class="project__tag">jQuery</span>
+              <span class="project__tag">HTML</span>
+              <span class="project__tag">CSS</span>
+            </div>
+          <!--  </div>  -->
+          <h2 class="card__title">Sistema de Facturación</h2>
+          <p class="card__text">El proyecto esta basado de un tutorial en el cual realicé algunas adaptaciones, resolví algunos inconvenientes que se presentaron en el transcurso como fue la implementación de dompdf.
+          Utilice Xampp para administrar MySql y realizar algunos procesos almacenados, JavaScript, jQuery, Ajax para que sea más dinámica, dompdf para la impresión y visualización de las facturas.<br>
+          Hay tres niveles de usuarios, podrán ingresar con Admin, Supervisor y Vendedor<br>
+          La contraseña es 1234 para todos los usuarios
+          </p>
+          <div class="buttons">
+            <a href="https://lailiada.000webhostapp.com/" target="_blank" class="button button--primary">Demo</a>
+            <a href="https://github.com/PauloFernandez/Facturacion" target="_blank" class="button button--ghost">Codigo</a>
+          </div>
+        </article>
+        <article class="card card--project">
+          <div class="card__image-container">
+           <img src="assets/images/logo_icon.jpg" alt="Pagina destino" class="card__image">
+          </div>
+          <div class="project">
+            <div class="project__tags">
+              <span class="project__tag">Java</span>
+            </div>
+          <!--  </div>  -->
+          <h2 class="card__title">Sistema de Venta</h2>
+          <p class="card__text">Este es un proyecto autodidacta realizado en Java SE, utilizando el IDE Apache NetBeans y Xampp para el manejo de MySql.<br>
+          En este programa se implementa la metodologia POO y MVC, el mismo se desarrollo para escritorio y se utilizaron las herramientas Inno Setup Compiler y Launch4j para realizar el ejecutable. <br>
+          </p>
+          <div class="buttons">
+            <a href="https://github.com/PauloFernandez/Sistema-Venta" target="_blank" class="button button--ghost">Codigo</a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
