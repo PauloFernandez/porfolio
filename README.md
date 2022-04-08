@@ -1,3 +1,5 @@
+<img src="https://user-images.githubusercontent.com/71606159/162444299-541a3791-73d4-463e-a716-95222399df00.jpg" width="100%" height="300px" />
+
 # Descripcion
 Este es un porfolio creado con HTML, CSS y un pequeño código JavaScript en donde vincula proyectos de back-end
 # Autor
